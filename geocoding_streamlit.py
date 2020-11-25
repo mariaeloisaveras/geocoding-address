@@ -4,7 +4,6 @@ import pandas as pd
 import geopandas as gpd
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
-import plotly_express as px
 import plotly.graph_objects as go
 
 st.title('Geocodificar endereços (Nominatim)')

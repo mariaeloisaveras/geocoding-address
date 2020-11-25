@@ -6,7 +6,7 @@ from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
 import plotly.graph_objects as go
 
-st.title('Geocodificar endereços (Nominatim)')
+st.title('Geocodificar endereços')
 st.markdown('Carregue seu arquivo CSV com o endereço (nome da rua & numero, cidade), com colunas separadas por " ; " e sem acentos ou caracteres especiais.')
 
 def create_address_col(df):
